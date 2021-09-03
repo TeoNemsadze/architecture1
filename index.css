@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.conteiner{
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.box{
+	width: 500px;
+	height: 500px;
+	background-color: yellow;
+}
+.img{
+	width: 900px;
+	height: 600px;
+}
+@media(max-width: 1024px){
+	.box{
+		width:300px;
+		background-color: green;
+	}
+	.img{
+		width: 100%;
+	}
+
+}
+.logo2{
+	background-color: BB6262;
+	height: 100px;
+}
+header{
+	background-color: brown;
+}
